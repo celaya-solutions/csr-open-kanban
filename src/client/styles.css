@@ -35,6 +35,8 @@ body {
 }
 
 .toolbar-title { font-size: 20px; font-weight: 700; color: var(--text); }
+.toolbar-brand { display: flex; flex-direction: column; }
+.toolbar-brand > span { color: var(--text-secondary); font-size: 10px; font-weight: 500; }
 .toolbar-right { display: flex; align-items: center; gap: 8px; }
 
 .board {

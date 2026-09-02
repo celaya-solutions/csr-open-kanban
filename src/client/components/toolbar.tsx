@@ -33,7 +33,10 @@ export function Toolbar() {
 
   return (
     <header class="toolbar">
-      <h1 class="toolbar-title">Kanban Board</h1>
+      <div class="toolbar-brand">
+        <h1 class="toolbar-title">Kanban Board</h1>
+        <span>Celaya Solutions Research Course Edition</span>
+      </div>
       <div class="toolbar-right">
         {!showForm && (
           <button
