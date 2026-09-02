@@ -1,18 +1,16 @@
-> **Celaya Solutions Research Course Edition.** Start with [COURSE_EDITION.md](COURSE_EDITION.md). Use fake data only.
+> **Celaya Solutions Research Course Edition.** Forks and changes are welcome for noncommercial use. This CSR branding must remain. Start with [COURSE_EDITION.md](COURSE_EDITION.md) and use fake data only.
 
 <img src="readme-banner.png" alt="OpenKanban preview" width="100%" />
 
-# OpenKanban: The Open-Source Trello Alternative for SaaS
+# OpenKanban: The Source-Available Trello Alternative for SaaS
 
-[![Deploy with Clawnify](https://app.clawnify.com/deploy-button.svg)](https://app.clawnify.com/deploy?repo=clawnify/OpenKanban)
-
-A lightweight kanban board for building project management tools, task trackers, and workflow apps. Part of the [OpenClaw](https://github.com/openclaw/openclaw) ecosystem. Zero cloud dependencies — runs locally with SQLite.
+A lightweight kanban board for building project management tools, task trackers, and workflow apps. Zero cloud dependencies — runs locally with SQLite.
 
 Built with **Preact + Hono + SQLite**. Ships with a dual-mode UI: one for humans (drag-and-drop cards, hover menus) and one for AI agents (explicit buttons, large targets).
 
 ## What Is It?
 
-Clawnify OpenKanban is a production-ready kanban board designed for the OpenClaw community. Think of it as an open-source Trello alternative — a project board you can self-host, customize, and embed in any SaaS product.
+OpenKanban is a course-ready kanban board. Think of it as a source-available Trello alternative—a project board you can self-host and customize for learning or other noncommercial work.
 
 Unlike Trello, Asana, or Monday.com, this runs entirely on your own infrastructure with no API keys, no vendor lock-in, and no per-seat pricing. It provides a complete task management and workflow system. Create lists, add cards, drag between columns, and manage projects — all out of the box.
 
@@ -30,7 +28,7 @@ Unlike Trello, Asana, or Monday.com, this runs entirely on your own infrastructu
 ## Quickstart
 
 ```bash
-git clone https://github.com/clawnify/OpenKanban.git
+git clone https://github.com/celaya-solutions/csr-open-kanban.git
 cd open-kanban
 pnpm install
 pnpm run dev
@@ -138,8 +136,8 @@ cards (id, list_id → lists, title, description, position, created_at, updated_
 
 ## Community & Contributions
 
-This project is part of the [OpenClaw](https://github.com/openclaw/openclaw) ecosystem. Contributions are welcome — open an issue or submit a PR.
+Noncommercial contributions and classroom forks are welcome.
 
 ## License
 
-MIT
+CSR Noncommercial License 1.0. Fork, study, modify, and share for noncommercial purposes. Keep the Celaya Solutions Research Course Edition branding. See [LICENSE](LICENSE).
